@@ -1,0 +1,16 @@
+include <iostream>
+
+int main() {
+    using namespace std;
+
+    double lv_real;
+    double lv_dolar;
+    double gv_conversor;
+    lv_dolar = 3.45;
+
+    cout << "Quanto queres converter: R$ ";
+    cin >> lv_real;
+
+    gv_conversor = lv_real / lv_dolar;
+
+    cout << "R$"<< lv_real <<" convertido em dolar = usd " << gv_conversor << endl;
