@@ -1,0 +1,17 @@
+#include <iostream>
+
+
+int main() {
+using namespace std;
+
+    double lv_numero;
+    double gv_dobro;
+    double gv_terca_parte;
+
+    cout << "Digite um numero: \n";
+    cin >> lv_numero;
+    gv_dobro = lv_numero * 2;
+    gv_terca_parte = lv_numero / 3;
+
+    cout <<"O dobro de " <<lv_numero<< " = " <<gv_dobro << endl;
+    cout << "A terca parte = " <<lv_numero<< " = " <<gv_terca_parte << endl;
