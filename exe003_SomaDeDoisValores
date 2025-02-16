@@ -1,0 +1,22 @@
+#include <iostream>
+# include <string>
+#include <stdio.h>
+#include <stdlib.h>
+using namespace std;
+
+
+
+int main() {
+    int n1;
+    int n2;
+    int total;
+    cout << "qual o primeiro numero:\n";
+    scanf_s ("%d", &n1);
+    cout << "qual o segundo numero:\n";
+    scanf_s ("%d", &n2);
+
+
+    total = n1 + n2;
+    cout << "A soma de " << n1<< "+" <<n2<< "=" <<total;
+   return 0;
+}
