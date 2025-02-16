@@ -1,0 +1,20 @@
+#include <iostream>
+
+
+int main() {
+    using namespace std;
+    int gv_antecessor;
+    int gv_sucessor;
+    int lv_numero;
+
+    cout << "Digite um numero? " << endl;
+    cin >> lv_numero;
+
+    gv_antecessor = lv_numero - 1;
+    gv_sucessor = lv_numero + 1;
+    cout << "Antecessor de " <<lv_numero << " = " << gv_antecessor << endl;
+    cout << "sucessor de " <<lv_numero << " = " << gv_sucessor << endl;
+
+
+    return 0;
+}
