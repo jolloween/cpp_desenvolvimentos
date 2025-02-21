@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int sport;
+    int santa;
+    int diferenca_gols1;
+    int diferenca_gols2;
+    cout << "quantos gols o sport fez: ";
+    cin >> sport;
+    cout << "quantos gols o santa fez: ";
+    cin >> santa;
+
+    //diferencas de gols partidas
+    diferenca_gols1 = sport - santa;
+    diferenca_gols2 = santa - sport;
+
+    if (sport == santa) {
+        cout << "partida empatada.";
+    }
+    if (sport > santa && diferenca_gols1 <= 3) {
+        cout << "partida normal." << endl;
+        cout << "diferenca de gols e de : " <<diferenca_gols1 << endl;
+    }
+    else if (diferenca_gols1 >= 4 ){
+        cout << "eeee goleaaadaaaaa" << endl;
+        cout << "diferenca de gols e de : " <<diferenca_gols1 << endl;
+    }
+    if (santa > sport && diferenca_gols2 <= 3) {
+        cout << "partida normal." << endl;
+        cout << "diferenca de gols e de : " <<diferenca_gols2 << endl;
+    }
+    else if (diferenca_gols2 >= 4 ) {
+        cout << "eeee goleaaadaaaaa" << endl;
+        cout << "diferenca de gols e de : " <<diferenca_gols2 << endl;
+    }
