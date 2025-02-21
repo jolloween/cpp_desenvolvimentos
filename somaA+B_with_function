@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+
+int soma(int a, int b) {
+    return a + b;
+}
+
+
+int main() {
+    int n1;
+    int n2;
+    int s;
+    cout <<"Digite um numero inteiro:";
+    cin >> n1;
+    cout <<"Digite outro numero inteiro:";
+    cin >> n2;
+
+    s = soma(n1, n2);
+    cout << "a soma entre "<<n1<< " e " <<n2<<" e:  " << s << endl;
+    return 0;
+}
