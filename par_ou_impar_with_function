@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+string parouimpar(int valor) {
+    if (valor % 2 == 0) {
+        return " e par";
+    }
+    else {
+        return " e impar";
+    }
+
+}
+
+int main() {
+    int numero;
+    string resultado;
+
+    cout << ("Digite um numero");
+    cin >> numero;
+    resultado = parouimpar(numero);
+    cout << numero << resultado << endl;
