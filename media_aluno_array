@@ -1,0 +1,22 @@
+int main() {
+double media[5];
+double n1[5];
+double n2[5];
+string nome[5];
+
+    for (int c =1; c < 5 ; c++) {
+        cout << "aluno " << c << endl;
+        cin.ignore();
+        getline (cin, nome[c]);
+        cout << "Primeira nota: " << endl;
+        cin >> n1[c];
+        cout << "Segunda nota: " << endl;
+        cin >> n2[c];
+        media[c] = (n1[c] + n2[c]) / 2;
+
+    }
+    for (int c =1; c < 5 ; c++) {
+        cout << nome[c] <<  media[c] << endl;
+    }
+    return 0;
+}
